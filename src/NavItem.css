@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Source_Sans_Pro";
+  src: url(./Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source_Sans_Pro";
+  src: url(./Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  font-weight: 600;
+}
+
+.nav-items__section {
+  width: 300px;
+  background-color: #dedce4;
+  padding: 5px 10px;
+}
+
+.nav-item {
+  font-family: "Source_Sans_Pro", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 276px;
+  height: 48px;
+  border-radius: 0px 6px 6px 0px;
+  margin-top: 14px;
+  padding-left: 20px;
+}
+
+.active {
+  background-color: #fcb600;
+  color: #fff;
+}
+
+.nav-item__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.log-out {
+  margin-top: 80px;
+}
+
+.nav-item__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item__brand img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.nav-item__brand-info {
+  margin-left: 20px;
+}
+
+.nav-item__brand-title {
+  font-family: "Source_Sans_Pro", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+  color: #2d3a45;
+}
+
+.nav-item__brand-discription {
+  font-size: 12px;
+  line-height: 14px;
+  color: #2d3a45;
+  opacity: 0.5;
+  margin-top: 4px;
+  font-family: "Source_Sans_Pro", sans-serif;
+}
