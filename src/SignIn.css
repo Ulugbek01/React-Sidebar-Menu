@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Source_Sans_Pro";
+  src: url(./Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Source_Sans_Pro";
+  src: url("./Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 100vh;
+  background-color: #edeff3;
+  margin: auto;
+}
+
+.sign-in__brand {
+  width: 800px;
+}
+
+.sign-in__brand img {
+  width: 100%;
+}
+
+.user-info {
+  padding: 0 50px;
+}
+
+.title {
+  font-family: "Source_Sans_Pro", sans-serif;
+  font-size: 24px;
+  color: #2d3a45;
+  font-weight: 600;
+}
+
+.sign-in__warning {
+  font-family: "Source_Sans_Pro", sans-serif;
+  font-weight: 400;
+  color: #8d9ba8;
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+
+.to-register {
+  box-shadow: 0px 20px 25px rgba(176, 177, 181, 0.432802);
+  border-radius: 6px;
+}
+
+.to-register input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+
+.to-register .email {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-left: 2px solid #fcb600;
+}
+
+.to-register input:nth-child(1) {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.to-register .password {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.log-in__link {
+  padding: 18px 0;
+  background-color: #2d3a45;
+  text-align: center;
+  margin-top: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
+  border-radius: 6px;
+}
+
+.log-in__link a {
+  text-decoration: none;
+  color: #fff;
+}
